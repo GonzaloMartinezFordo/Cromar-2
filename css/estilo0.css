@@ -1,0 +1,284 @@
+<<<<<<< HEAD
+*{
+    margin: 0px; 
+    padding:0px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+
+header{
+    padding-left: 2.4em;
+    background-image: linear-gradient(to top, #001030 0%, #3972C7 100%);width: 100%;
+    text-indent: 0em;
+    height: 7em;
+    position: fixed;
+    }
+
+ .logo{
+    padding-top: 1.4em;
+    position: fixed;
+    }
+
+ .rei {
+    color: #002060;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 rgb(200, 200, 255), 
+    0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,15,.15);
+    position: fixed;
+    top: .2em ;
+    left: 2.4em
+    }
+
+.address {
+    position: fixed;
+    top: 1.2em ;
+    right: 4em;
+    color: rgb(200, 255, 255);
+    }   
+
+.linkedin{
+    position:fixed ;
+    top: 2.0em ;
+    right: 22em; ;
+    }
+   
+.linkedin:hover{
+    border-radius: 50%;
+    border:4px solid #0088ff;
+    background: linear-gradient(to top,#0040aa, #0088ff);
+    }  
+
+footer{
+    background-image: linear-gradient(to top, #3972C7 0%, #001030 100%); width: 100em;
+    padding: .6em;
+    text-indent: 2em;
+    color: rgb(125, 200, 255);
+    position: fixed;
+    bottom: 0
+    }
+
+.menu{
+    overflow: hidden;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: right;
+    color: #fff;
+    text-shadow:1px 1px 0 #000;
+    width: 60%;
+    box-sizing:content-box;
+    padding-top: 6.66em;
+    position: fixed;
+    left: .8em;
+    margin:auto;
+    }		
+
+li, a{
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1.1em ; 
+    color: rgb(100, 200, 255);
+    text-shadow: 2px 2px 0 #000;
+    text-align:left;
+    }
+
+.boton2{
+    float:inline-start;
+    width:8em ;
+    height: 2em;
+    font-size: 1.1em; 
+    box-sizing:border-box;
+    border: 2px solid #0e0d5c;
+    padding-top:.21em;
+    margin: .3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000;
+    text-align:center;
+    background: linear-gradient(to top,#0060bb, #001030);
+    border-radius: 0px 0px 10px 10px; 
+    }
+    
+.boton {
+    float:inline-start;
+    width:8em ;
+    height: 2em;
+    font-size: 1.1em; 
+    box-sizing:border-box;
+    border: 2px solid #0e0d5c;
+    padding-top:.2em;
+    margin: .3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000;
+    text-align:center;
+    background: linear-gradient(to top,#0060bb, #001030);
+    border-radius: 0px 0px 10px 10px; 
+    }
+    
+.boton:hover{
+    background: linear-gradient(to top,#0040aa, #0088ff);
+}
+
+body{text-indent: 2em;
+    background: rgb(87, 176, 228);
+}
+
+.fondo{
+    box-sizing: border-box; 
+    border: 0;
+    background: rgb(87, 176, 228);
+    width:auto;
+    height: 2.2em;
+    margin-left: -2.4em;
+    margin-right: 51.66em;
+    margin-top: 7em; 
+}
+=======
+*{
+    margin: 0px; 
+    padding:0px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+
+header{
+    padding-left: 2.4em;
+    background-image: linear-gradient(to top, #001030 0%, #3972C7 100%);width: 100%;
+    text-indent: 0em;
+    height: 7em;
+    position: fixed;
+    }
+
+ .logo{
+    padding-top: 1.4em;
+    position: fixed;
+    }
+
+ .rei {
+    color: #002060;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 rgb(200, 200, 255), 
+    0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,15,.15);
+    position: fixed;
+    top: .2em ;
+    left: 2.4em
+    }
+
+.address {
+    position: fixed;
+    top: 1.2em ;
+    right: 6em;
+    color: rgb(200, 255, 255);
+    }   
+
+.linkedin{
+    position:fixed ;
+    top: 2.0em ;
+    right: 24em; ;
+    }
+   
+.linkedin:hover{
+    border-radius: 50%;
+    border:4px solid #0088ff;
+    background: linear-gradient(to top,#0040aa, #0088ff);
+    }  
+
+footer{
+    background-image: linear-gradient(to top, #3972C7 0%, #001030 100%); width: 100em;
+    padding: .6em;
+    text-indent: 2em;
+    color: rgb(125, 200, 255);
+    position: fixed;
+    bottom: 0
+    }
+
+.menu{
+    overflow: hidden;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: right;
+    color: #fff;
+    text-shadow:1px 1px 0 #000;
+    width: 60%;
+    box-sizing:content-box;
+    padding-top: 6.66em;
+    position: fixed;
+    left: .8em;
+    margin:auto;
+    }		
+
+li, a{
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1.1em ; 
+    color: rgb(100, 200, 255);
+    text-shadow: 2px 2px 0 #000;
+    text-align:left;
+    }
+
+.boton2{
+    float:inline-start;
+    width:8em ;
+    height: 2em;
+    font-size: 1.1em; 
+    box-sizing:border-box;
+    border: 2px solid #0e0d5c;
+    padding-top:.21em;
+    margin: .3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000;
+    text-align:center;
+    background: linear-gradient(to top,#0060bb, #001030);
+    border-radius: 0px 0px 10px 10px; 
+    }
+    
+.boton {
+    float:inline-start;
+    width:8em ;
+    height: 2em;
+    font-size: 1.1em; 
+    box-sizing:border-box;
+    border: 2px solid #0e0d5c;
+    padding-top:.2em;
+    margin: .3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000;
+    text-align:center;
+    background: linear-gradient(to top,#0060bb, #001030);
+    border-radius: 0px 0px 10px 10px; 
+    }
+    
+.boton:hover{
+    background: linear-gradient(to top,#0040aa, #0088ff);
+}
+
+body{text-indent: 2em;
+    background: rgb(87, 176, 228);
+}
+
+.fondo{
+    box-sizing: border-box; 
+    border: 0;
+    background: rgb(87, 176, 228);
+    width:auto;
+    height: 2.2em;
+    margin-left: -2.4em;
+    margin-top: 7em; 
+}
+>>>>>>> 7093549c8e8d1caaf43865835af92e9496d4981c
