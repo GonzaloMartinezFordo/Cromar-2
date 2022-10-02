@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 *{
     box-sizing: border-box;
 }
 
 .grid-container{
-    padding-top: 8em;
+    padding-top: 12em;
+    padding-left: 6.6em;
     background: rgb(87, 176, 228);
     display:grid;
     grid-template-columns:repeat(5, 280px) ;
@@ -81,8 +81,10 @@ grid-area: area4;
  }
  .p3{
     font-size: 1em ;
+    padding-top: 3em;
  }
 .iso{
+    padding-top: 3em;
     float: left;
 }
 .fondo1{
@@ -93,99 +95,3 @@ grid-area: area4;
     height: 1em;
     margin-top: 3em; 
     }
-=======
-*{
-    box-sizing: border-box;
-}
-
-.grid-container{
-    padding-top: 8em;
-    background: rgb(87, 176, 228);
-    display:grid;
-    grid-template-columns:repeat(5, 280px) ;
-    grid-template-rows:repeat(5, 280px);
-    grid-template-areas: 
-    "area1  area2 area3 area4 area5"
-    "area6  area7 area7 area7 area8"
-    "area9  area7 area7 area7 area10" 
-    "area11 area7 area7 area7 area12"
-    "area13 area14 area15 area16 area17"
-}
-
-.item1{
-    grid-area: area1;
-}
-.item2{
-  grid-area: area2;
-}
-.item3{
- grid-area: area3;
-}
-.item4{
-grid-area: area4;
-}
-.item5{
- grid-area: area5;
-}
-.item6{
- grid-area: area6;
-}
-.item7{
-    grid-area: area7;
-    padding-left: 5%;
-    padding-top: 5%;
-    font-size: 1.1em
-}
-.item8{
-    grid-area: area8;
-}    
-.item9{
-    grid-area: area9;
-}  
-.item10{
-    grid-area: area10;
-}
-.item11{
-    grid-area: area11;
-}
-.item12{
-    grid-area: area12;
-} 
-.item13{
-    grid-area: area13;         
-}
-.item14{
-    grid-area: area14;
-}
-.item15{
-    grid-area: area15;
-    }
-.item16{
-    grid-area: area16;
-}  
-.item17{
-    grid-area: area17; 
-}
-.p1{
-    padding-left: 4em;
-    font-weight: bold;
-} 
-.p2{
-    padding-left: 9em;
-    font-style: italic ;
- }
- .p3{
-    font-size: 1em ;
- }
-.iso{
-    float: left;
-}
-.fondo1{
-    box-sizing: border-box; 
-    border: 0;
-    background: rgb(87, 176, 228);
-    width:auto;
-    height: 1em;
-    margin-top: 3em; 
-    }
->>>>>>> 7093549c8e8d1caaf43865835af92e9496d4981c

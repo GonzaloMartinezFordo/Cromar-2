@@ -57,8 +57,10 @@ header{
     }  
 
 footer{
-    background-image: linear-gradient(to top, #3972C7 0%, #001030 100%); width: 100em;
-    padding: .6em;
+    background-image: linear-gradient(to top, #3972C7 0%, #001030 100%); width: 110em;
+    padding-left: .6em;
+    padding-top: 1.2em;
+    padding-bottom: .6em;
     text-indent: 2em;
     color: rgb(125, 200, 255);
     position: fixed;
@@ -74,7 +76,7 @@ footer{
     text-shadow:1px 1px 0 #000;
     width: 60%;
     box-sizing:content-box;
-    padding-top: 6.66em;
+    padding-top: 6.65em;
     position: fixed;
     left: .8em;
     margin:auto;
@@ -133,10 +135,8 @@ body{text-indent: 2em;
     box-sizing: border-box; 
     border: 0;
     background: rgb(87, 176, 228);
-    width:auto;
     height: 2.2em;
-    margin-left: -2.4em;
-    margin-right: 51.66em;
+    margin-right: 62.66em;
     margin-top: 7em; 
 }
 
