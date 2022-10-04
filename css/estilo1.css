@@ -1,24 +1,28 @@
 *{
-    box-sizing: border-box;
+    
+    margin: 0px; 
+    padding:0px; 
 }
 
 .grid-container{
-    padding-top: 12em;
-    padding-left: 6.6em;
+    width: 100%;
+    padding-top: 190px;
+    padding-left: 5%;
+    padding-right: 5%;
     background: rgb(87, 176, 228);
     display:grid;
-    grid-template-columns:repeat(5, 280px) ;
-    grid-template-rows:repeat(5, 280px);
+    grid-template-columns:repeat(5, 260px) ;
+    grid-template-rows:repeat(5, 260px);
     grid-template-areas: 
-    "area1  area2 area3 area4 area5"
-    "area6  area7 area7 area7 area8"
-    "area9  area7 area7 area7 area10" 
-    "area11 area7 area7 area7 area12"
-    "area13 area14 area15 area16 area17"
+        "area1  area2 area3 area4 area5"
+        "area6  area7 area7 area7 area8"
+        "area9  area7 area7 area7 area10"
+        "area11 area7 area7 area7 area12"
+        "area13 area14 area15 area16 area17"
 }
 
 .item1{
-    grid-area: area1;
+  grid-area: area1;
 }
 .item2{
   grid-area: area2;
@@ -37,7 +41,7 @@ grid-area: area4;
 }
 .item7{
     grid-area: area7;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-top: 5%;
     font-size: 1.1em
 }
@@ -72,6 +76,7 @@ grid-area: area4;
     grid-area: area17; 
 }
 .p1{
+    padding-top: 1em;
     padding-left: 4em;
     font-weight: bold;
 } 
@@ -79,12 +84,18 @@ grid-area: area4;
     padding-left: 9em;
     font-style: italic ;
  }
- .p3{
-    font-size: 1em ;
-    padding-top: 3em;
+.p3{
+    font-size: .9em ;
+    padding-top: 2.5em;
  }
+
+.p4{
+    padding-top: 1em;
+} 
+
 .iso{
-    padding-top: 3em;
+    padding-top: 2em;
+    padding-left: 1em;
     float: left;
 }
 .fondo1{
@@ -92,6 +103,6 @@ grid-area: area4;
     border: 0;
     background: rgb(87, 176, 228);
     width:auto;
-    height: 1em;
+    height: 2em;
     margin-top: 3em; 
     }

@@ -5,21 +5,22 @@
     }
 
 header{
-    padding-left: 2.4em;
-    background-image: linear-gradient(to top, #001030 0%, #3972C7 100%);width: 100%;
-    text-indent: 0em;
-    height: 7em;
+    background-image: linear-gradient(to top, #001030 0%, #3972C7 100%);
+    width: 100%;
+    text-indent: 0;
+    height: 112px;
     position: fixed;
     }
 
- .logo{
-    padding-top: 1.4em;
+.logo{
+    padding-left: 39px;
+    padding-top: 23px;
     position: fixed;
     }
 
- .rei {
+.rei {
     color: #002060;
-    font-size: 4em;
+    font-size: 64px;
     font-weight: bold;
     font-family: Helvetica;
     text-shadow: 0 1px 0 rgb(200, 200, 255), 
@@ -33,21 +34,21 @@ header{
     0 10px 10px rgba(0,0,0,.2), 
     0 20px 20px rgba(0,0,15,.15);
     position: fixed;
-    top: .2em ;
-    left: 2.4em
+    top: 4px ;
+    left: 168px;
     }
 
 .address {
     position: fixed;
-    top: 1.2em ;
-    right: 4em;
+    top: 19px ;
+    left: 1136px;
     color: rgb(200, 255, 255);
     }   
 
 .linkedin{
     position:fixed ;
-    top: 2.0em ;
-    right: 22em; ;
+    top: 32px ;
+    left: 1032px;
     }
    
 .linkedin:hover{
@@ -57,86 +58,74 @@ header{
     }  
 
 footer{
-    background-image: linear-gradient(to top, #3972C7 0%, #001030 100%); width: 110em;
-    padding-left: .6em;
-    padding-top: 1.2em;
-    padding-bottom: .6em;
-    text-indent: 2em;
-    color: rgb(125, 200, 255);
+    background-image: linear-gradient(to top, #3972C7 0%, #001030 100%); 
+    width: 100%;
+    padding: 10px;
+    text-indent: 32px;
+    color: rgb(200, 255, 255);
     position: fixed;
     bottom: 0
     }
 
-.menu{
-    overflow: hidden;
-    font-size: 1em;
-    font-weight: normal;
-    text-align: right;
-    color: #fff;
-    text-shadow:1px 1px 0 #000;
-    width: 60%;
-    box-sizing:content-box;
-    padding-top: 6.65em;
-    position: fixed;
-    left: .8em;
-    margin:auto;
-    }		
+.fondo{
+    background: rgb(87, 176, 228);
+    width:100%;
+    height: 32px;
+    margin-top: 112px; 
+    } 
 
-li, a{
+.menu {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+nav {
+    float: left;
+    }
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+    box-sizing:content-box;
+    padding-top: 106px;
+    padding-left:12px;
+    position: fixed;
+    left: 0px;
+    margin:auto;
+    }
+  
+nav ul li {
     text-decoration: none;
     display:inline-block;
     font-size: 1.1em ; 
-    color: rgb(100, 200, 255);
     text-shadow: 2px 2px 0 #000;
     text-align:left;
     }
 
-.boton2{
-    float:inline-start;
-    width:8em ;
-    height: 2em;
+nav ul li a {
+    color: rgb(100, 200, 255);
+    width:128px ;
+    height:32px;
     font-size: 1.1em; 
     box-sizing:border-box;
     border: 2px solid #0e0d5c;
-    padding-top:.21em;
-    margin: .3em;
+    margin: 6px;
     text-decoration: none;
     text-shadow: 1px 1px 0 #000;
     text-align:center;
     background: linear-gradient(to top,#0060bb, #001030);
     border-radius: 0px 0px 10px 10px; 
-    }
-    
-.boton {
-    float:inline-start;
-    width:8em ;
-    height: 2em;
-    font-size: 1.1em; 
-    box-sizing:border-box;
-    border: 2px solid #0e0d5c;
-    padding-top:.2em;
-    margin: .3em;
+    display: block;
+    padding: 2px;
+    color: rgb(230, 230, 255);
     text-decoration: none;
-    text-shadow: 1px 1px 0 #000;
-    text-align:center;
-    background: linear-gradient(to top,#0060bb, #001030);
-    border-radius: 0px 0px 10px 10px; 
     }
-    
-.boton:hover{
+
+nav ul li:hover a {
     background: linear-gradient(to top,#0040aa, #0088ff);
-}
+    }
 
 body{text-indent: 2em;
     background: rgb(87, 176, 228);
-}
-
-.fondo{
-    box-sizing: border-box; 
-    border: 0;
-    background: rgb(87, 176, 228);
-    height: 2.2em;
-    margin-right: 62.66em;
-    margin-top: 7em; 
-}
-
+    }
