@@ -13,10 +13,10 @@ svg {
 }
 
 .calesita {
-  width: 960px;
+  width: 600px;
   height: auto;
-  margin-left: 260px;
-  margin-top: 170px;
+  margin-left: 400px;
+  margin-top: 280px;
   overflow: hidden;
   position: fixed;
 }
@@ -108,16 +108,15 @@ svg {
   transition: transform 75ms linear;
   transform: scale(.4);
 }
+
 :where(.next, .previous):hover > svg {
   transform: scale(.6);
 }
 
-.pic:target :where(.next, .previous) {
+.media-group:target :where(.next, .previous) {
   display: flex;
 }
 
-.scroll:has(:target:not(:first-child))
-  .pic:first-of-type
-  .next {
-  display: none;
+.pic:target :where(.next, .previous) {
+  display: flex;
 }
