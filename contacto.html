@@ -1,61 +1,128 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilo0.css">
-  <link rel="stylesheet" href="css/estilo1.css">
-  <link rel="stylesheet" href="css/estilo2.css">
-  <link rel="stylesheet" href="css/estilo3.css">
-  <link rel="stylesheet" href="css/estilo4.css">
-  <title>CroMar Seis</title>
-  <link rel="icon" href="Images/favicon.ico"/>
-</head>
-
-<body>
-
-  <header> 
-    <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/estilo0.css">
+      <link rel="stylesheet" href="css/estilo1.css">
+      <link rel="stylesheet" href="css/estilo2.css">
+      <link rel="stylesheet" href="css/estilo3.css">
+      <link rel="stylesheet" href="css/estilo4.css">
+      <title>CroMar Seis</title>
+      <link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+      <header> 
+        <div class="logo">   
+          <img src="images/logo3.png" alt="logo" width="60" >
+        </div>
+        <div class="rei"> CroMar Seis</div>
+        <div class="linkedin">   
+          <a href="https://www.linkedin.com/in/rodolfo-elia-9aa151149/"> 
+          <img src="images/linkedin.png" alt="Linkedin iconos creados por Laisa Islam Ani - Flaticon" width="40" >     
+          </a>
+        </div>
+          <div class="address"> 
+          <h5>Av. Leandro N. Alem 1016 - Piso 16 </h5>  
+          <h5>(C1001AAS) C.A.B.A. - Argentina</h5>  
+          <h5>Tel. (+54) 11 3151600 </h5>  
+          <h5>contacto@cromarseis.com </h5>  
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="equipos.html">Equipos</a></li>
+              <li><a href="clientes.html">Clientes</a></li>
+              <li><a href="contacto.html">Únase</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="fondo">    </div>
+      </header>  
+      <footer> 
+        <h5> ©  2022 CroMar Seis -   CaC   </h5>
+      </footer>    
     
-      <div class="logo">   
-      <img src="images/logo3.png" alt="logo" width="60" >
-      </div>
- 
-      <div class="rei"> CroMar Seis</div>
 
-      <div class="linkedin">   
-        <a href="https://www.linkedin.com/in/rodolfo-elia-9aa151149/"> 
-        <img src="images/linkedin.png" alt="Linkedin iconos creados por Laisa Islam Ani - Flaticon" width="40" >     
-        </a>
-      </div>
+        <main>
+            <div class="descripción"> 
+              Buscamos incorporar gente entusiasta, que esté a la altura de nuestro compromiso. <br><br>
+              Si usted es una persona con formación o conocimientos previos en la actividad, sabe trabajar en equipo y le interesa formar parte de nuestro proyecto, complete el formulario
+            </div>
+            
+            <form action="" class="formulario" id="formulario">
+
+                <!-- Grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre y Apellido</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Juan Perez">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El campo solo puede contener letras.</p>
+                </div>
+
+                <!--Grupo: Edad-->
+                <div class="formulario__grupo" id="grupo__edad">
+                    <label for="edad" class="formulario__label">Edad</label>
+                    <div class="formulario__grupo-input">
+                        <input type="number" min="18" class="formulario__input" name="edad" id="edad" placeholder="Inserte su edad">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">Solo se admiten mayores de 18</p>
+                </div>
+
+
+                <!-- Grupo: Correo Electronico -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                </div>
+
+                <!-- Grupo: Teléfono -->
+                <div class="formulario__grupo" id="grupo__telefono">
+                    <label for="telefono" class="formulario__label">Teléfono</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+                </div>
+
+                <!-- Grupo: Terminos y Condiciones -->
+
+                <!-- <div class="formulario__grupo" id="grupo__terminos">
+                    <label class="formulario__label">
+                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                        Acepto los Terminos y Condiciones
+                    </label>
+                </div> -->
+
+                <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                </div>
+
+                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                </div>
+            </form>
+        </main> 
     
-      <div class="address"> 
-        <h5>Av. Leandro N. Alem 1016 - Piso 16 </h5>  
-        <h5>(C1001AAS) C.A.B.A. - Argentina</h5>  
-        <h5>Tel. (+54) 11 3151600 </h5>  
-        <h5>contacto@cromarseis.com </h5>  
-      </div>
-    
-      <div class="menu">
-        <nav>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="equipos.html">Equipos</a></li>
-           <li><a href="clientes.html">Clientes</a></li>
-           <li><a href="contacto.html">Únase</a></li>
-          </ul>
-        </nav>
-      </div>
 
-      <div class="fondo">    </div>
-      
-    </table>   
-  </header>  
+    <footer class="footer">
+        <h5>©  2022 Croma -   CaC   </h5>
+    </footer>
 
-  <footer> 
-    <h5> ©  2022 CroMar Seis -   CaC   </h5>
-  </footer>  
+</div>
 
-<!--Hasta aquí el ecabezado, menú y pie de página comunes a todos los html-->
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
 
-<!--                    Únase                       -->
+</html>
